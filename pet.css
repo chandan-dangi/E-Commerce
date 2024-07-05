@@ -1,0 +1,511 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* This is a header div CSS */
+body{
+    height:auto;
+    overflow-x: hidden;
+    font-family: cursive;
+}
+.header-main{
+    border-bottom: 1px solid #e1e3e1;
+    height: 23vh;
+    width: 97vw;
+    margin-left: 2vw;
+}
+.input-box{
+    width: 37vw;
+    height: 9vh;
+    margin-left: 10vw;
+}
+.search-icon{
+        font-size: 1.5vw;
+        position: relative;
+        right: 2.5vw;
+        top: 1.5vw;
+        z-index: 1;
+}
+.text-color{
+    color:#9facac;
+}
+.call-section{
+    position: relative;
+    bottom: .5vw;
+}
+/* Close the header div CSS */
+
+/* This is a Navigetion CSS */
+.nav-menu-icon{
+    font-size: 1.5vw;
+    position: relative;
+    right: -5vw;
+    margin-right: 5vw;
+    display: none;
+}
+.nav-icon{
+    font-size: 1.5vw;
+    position: relative;
+    right: -5vw;
+    margin-right: 5vw;
+} 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 1vw;
+    height: 8vh;
+}
+.navbar a:hover {
+    background-color: lightseagreen;
+    color: black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown .dropbtn {
+    display: flex;
+    align-items: center;
+}
+.dropdown .dropbtn::after {
+    content: '▼';
+    margin-left: 5px;
+    font-size: 10px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.get-pro {
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.get-pro:hover {
+    background-color: #45a049;
+}
+/* Close the Navigetion CSS */
+
+/* This is a Carousel CSS */
+.carousel{
+    background-color: #f9f3ec;
+    height: 88vh;
+}
+.carousel-img{
+    width: 30vw !important;
+    position: relative;
+    left: 10vw;
+}
+.carousel-text{
+    position: relative;
+    right: 15vw;
+    line-height: 6vw;
+    display: flex;
+    flex-direction: column;
+    gap:.9vw;
+}
+.shop-btn{
+    width: 18vw;
+    height: 12vh;
+    border: 1px solid black;
+    border-radius: .7vw;
+    background-color: #f9f3ec;
+}
+.shop-btn-text{
+    position: relative;
+    bottom: .5vw;
+    font-size: 1.5vw;
+    right: .5vw;
+    text-transform: uppercase;
+}
+.shop-btn:hover{
+    background-color: #41403e;
+    color:white;
+    transition: all 0.5s ease-in;
+}
+/* Close the Carousel CSS */
+
+/* This is a Food Section CSS */
+.food-icon{
+    color:#dead6f;
+}
+.food-anchar{
+    text-decoration: none;
+    color:black;
+    transition-property: all;
+    transition-duration: 4s;
+    scroll-behavior: smooth;
+}
+/* Close the Food Section CSS */
+
+/* This is a Product Buy Section */
+.hover-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hover-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.hover-button:active {
+    background-color: #004085;
+    transform: scale(1);
+}
+/* Close the Product Buy Section */
+
+
+/* This is a Product Section CSS */
+.product-container{
+    display: flex;
+}
+.product-section{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 92vh;
+    display: flex;
+    gap:3vw;
+}
+.product-section::-webkit-scrollbar{
+    display: none;
+}
+.side-wall{
+    width:10%;
+    background-color: white;
+}
+.dog-cloths{
+    background-color:#eeebe6;
+    border-radius: 2vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.dog-img-hov:hover{
+    transition: all;
+    transition-duration: 2s;
+    transform:scale(1.1);
+}
+.product-anchar{
+    text-decoration: none;
+    color: black;
+}
+.five-star{
+    color:#dead6f;
+}
+.star-5{
+    color: black;
+    margin-left: .5vw;
+    position: relative;
+    bottom: .1vw;
+}
+.first-product{
+    width: 30vw;
+}
+/* Close the Product Section CSS */
+
+/* This is a Nav-tabs Section CSS */
+.nav-tab-div{
+    height: 450vh;
+}
+.shop-btn-nav{
+    position: relative;
+    top: .5vw;
+    font-size: 1.5vw;
+    right: .5vw;
+    text-transform: uppercase;
+}
+.dog-product{
+    position: relative;
+    bottom: 40.7vw;
+}
+.dog-product-img:hover{
+    transition: all;
+    transition-duration: 2s;
+    transform:scale(1.1);
+}
+.bird-product{
+    position: relative;
+    bottom:81vw;
+}
+.nav-tabs-div{
+    height: 209vh !important;
+}
+.all-section{
+ background-color: lightseagreen;
+ height:0vh;
+}
+.cat-section{
+    background-color: lightseagreen;
+    height:0vh;
+}
+.dog-section{
+    background-color: lightseagreen;
+    height:0vh;
+}
+.bird-section{
+    background-color: lightseagreen;
+    height:0vh;
+}
+/* Close the Nav-tabs Section CSS */
+
+/* This is a Offer Section */
+.offer-section{
+    background-color: #f9f3ec;
+    position: relative;
+    bottom: 112vw;
+    height: 103vh;
+    box-sizing: border-box;
+}
+.offer-img{
+    width: 39vw;
+    position: relative;
+    bottom: 1vw;
+}
+.offer-side-text{
+    position: relative;
+    left: 12vw;
+    font-size: 4vw;
+    top: 11vw;
+    color:#41403e;
+}
+/* Close the Offer Section */
+
+/* This is a Artical Section */
+.artical-section{
+    position: relative;
+    bottom: 111vw;
+    background-color: white;
+    padding: 8vw;
+    text-align: justify;
+}
+.artical-section h2{
+    line-height: 1.6;
+}
+/* Close the Artical Section */
+
+/* Best Selling Product Section */
+.selling-product{
+    position: relative;
+    bottom: 111vw;
+    display: flex;
+    flex-direction: column;
+    gap:2vw;
+    margin-top: 33vw;
+}
+.shop-btn-selling{
+    position: relative;
+    bottom: -.5vw;
+    font-size: 1.5vw;
+    right: .5vw;
+    text-transform: uppercase;
+}
+/* Close the Best Selling Product Section */
+
+/* This is a Register Form Section */
+.register-form{
+    position: relative;
+    bottom: 50vw;
+    background-color: #f9f3ec;
+    text-align: center;
+    padding: 10vw;
+    height: 93vh;
+    margin-top: 24vw;
+}
+.register-form h1{
+    position: relative;
+    bottom: 4vw;
+    font-size: 4vw;
+}
+.register-form h2{
+    position: relative;
+    bottom: 4vw;
+    color:#ebd0ae;
+    font-size: 4vw;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+.form-section input{
+    height: 8vh;
+    width: 35vw;
+    position: relative;
+    left: 22vw;
+    bottom: 3vw;
+    padding-left: 1.5vw;
+    font-size: 1.5vw;
+}
+.form-section button{
+    height: 10vh;
+    width: 35vw;
+    position: relative;
+    left: 1vw;
+    bottom: 3vw;
+    padding-left: 1.5vw;
+    font-size: 1.5vw;
+    background-color: #41403e;
+    color:white;
+    border-width: 0px;
+    border-radius: .5vw;
+    border-width: thin;
+    border: 1px solid #d9d9d8;
+}
+/* Close the Register Form Section */
+
+/* Blog Section */
+.card{
+    border-width:0px;
+    width: 30vw;
+    margin-top: 2vw;
+}
+.card:hover{
+    transition: all;
+    transition-duration: 2s;
+    transform:scale(1.1);
+   
+}
+.card p{
+    text-align: justify;
+}
+/* Close the Blog Section */
+
+/* Service Section */
+.service-section{
+    margin-top:6vw;
+    color: #41403e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.service-section button{
+    width: 4.7vw;
+    height: 10vh;
+    border-radius: 50%;
+    border-width: thin;
+    background-color: white;
+    border: 1px solid #e8e8e7;
+    color:#dead6f;
+    margin-bottom: 2vw;
+}
+.service-section h4{
+    font-family: cursive;
+    font-size: 2vw;
+}
+/* Close the Service Section */
+
+/* Instagram Hover Section */
+.img-section{
+    display: flex;
+    width:100%;
+    margin-top: 11vw;
+}
+.img-fluid{
+    border-radius: 1vw;
+}
+.logo-section{
+    width: 17%;
+    border: .1px solid white;
+}
+ .instagram{
+    color: white;
+    position: relative;
+    top: 10vw;
+    left: 8vw;
+    display: none;
+}
+.instagram-log:hover .instagram{
+    display:block;
+}
+/* Close the Instagram Hover Section */
+
+/* Footer Section */
+.footer-section{
+    margin-top: 12vw;
+    margin-bottom: 5vw;
+}
+.icon-media{
+    font-size: 1.5vw;
+    display: flex;
+    gap:1vw;
+}
+.icon-media button{
+    border-radius: 50%;
+    width: 3vw;
+    height: 6.4vh;
+    border:1px solid #ccd1d6;
+    background-color:white;
+    color:#d1cfce;
+}
+.footer-hov:hover{
+    background-color: #dead6f;
+    color: white;
+    transform: all;
+    transition-duration: 1s;
+}
+.footer-2{
+    display: flex;
+    flex-direction: column;
+    gap:1vw;
+    padding-top: 1vw;
+}
+.anchar{
+    text-decoration: none;
+    color: #41403e;
+}
+.anchar:hover{
+    color:#dead6f;
+}
+.main-footer-3 input{
+    height: 9vh;
+    border-radius: 2vw;
+    border-width: thin;
+    width: 20vw;
+    padding-left: 1vw;
+    border:1px solid #bac1c8;
+}
+.main-footer-3 p{
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.main-footer-3 h3{
+    font-family: 'Chilanka', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* Close the Footer Section */

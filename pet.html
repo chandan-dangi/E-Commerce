@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Waggy-Free eCommerce Pet Store</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="./pet.css">
+  <link rel="stylesheet" href="./mobile-pet.css">
+</head>
+
+<body>
+
+  <!--This is a header div-->
+  <div class="container-fluid mt-lg-2 header-main"> <!--Container 1-->
+    <div class="row "> <!--"Row div"-->
+      <div class=" d-flex mt-lg-5"><!--Main div-->
+
+        <div class="ps-lg-5 dog-img">
+          <img src="https://rafiaein.github.io/waGGy/images/logo.png" alt="">
+        </div>
+
+        <div class="input-group flex-nowrap input-box">
+          <input type="text" class="form-control ps-lg-5 d-none d-sm-block"
+            placeholder="Search For More Than 10,000 Products" aria-label="Username" aria-describedby="addon-wrapping">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+
+        <div class="d-flex flex-column ms-lg-5 call-section">
+          <div class="text-end text-color d-none d-sm-block"> <span>Phone </span> </div>
+          <div class="text-end d-none d-sm-block">+977</div>
+          <div class="d-none d-sm-block">9766999967</div>
+        </div>
+
+        <div class="d-flex flex-column ms-lg-5 mt-lg-3">
+          <div class="text-end text-color d-none d-sm-block"> <span> Email </span></div>
+          <div class="d-none d-sm-block">dangichandan63@gmail.com</div>
+        </div>
+
+      </div> <!--Close the main div-->
+
+    </div> <!--Close the "Row div"-->
+  </div> <!--Close the Container 1-->
+  <!--Close the header div-->
+
+  <!-- This is a Navigetion bar-->
+  <div class="container-fluid"> <!--Container 2-->
+    <div class="row"> <!--Row div-->
+      <div class="d-flex justify-content-around align-items-center"> <!--This is a Navigetion Main div-->
+
+        <div class="dropdown d-none d-sm-block"> <!--This is a dropdown div-->
+          <button class="btn  dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Shop By Category
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Cloth</a></li>
+            <li><a class="dropdown-item" href="#">Food</a></li>
+            <li><a class="dropdown-item" href="#">Toy</a></li>
+          </ul>
+        </div> <!--Close the dropdown div-->
+
+        <div class="navbar d-none d-sm-block"> <!--This is a Navigetion div-->
+          <a href="#home">Home</a>
+          <div class="dropdown">
+            <a href="#dropdown" class="dropbtn">Page</a>
+            <div class="dropdown-content">
+              <a href="#link1">About Us</a>
+              <a href="#link2">Shop</a>
+              <a href="#link3">Single Product </a>
+            </div>
+          </div>
+          <a href="#shop">Shop</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+          <a href="#other">Other</a>
+          <a href="https://templatesjungle.gumroad.com/l/waggy-pet-shop-ecommerce-html-website-template" class="get-pro"
+            target="_blank"> Get Pro</a>
+        </div> <!--Close the Navigetion div-->
+
+        <div class="d-flex "> <!--This is a icon div-->
+          <a href="#"><i class="fa-solid fa-user nav-icon text-dark"></i></a>
+          <a href="#"> <i class="fa-solid fa-heart nav-icon text-dark"></i></a>
+          <a href="#"><i class="fa-solid fa-cart-shopping nav-icon text-dark"></i></a>
+          <div class="border menu-icon"> <a href="#"><i class="fa-solid fa-bars nav-menu-icon "></i></a></div>
+        </div> <!--Close the icon div-->
+
+      </div> <!--Close the Navigetion Main div-->
+    </div> <!--Close the "Row div"-->
+  </div> <!--Close the Container 2-->
+  <!-- Close the navigetion bar -->
+
+  <!--This is a Carousel Section-->
+  <div class="carousel"> <!--This is a Carousel div-->
+
+    <div id="carouselExampleControls" class="carousel slide carousel-div" data-bs-ride="carousel">
+      <div class="carousel-inner ">
+
+        <div class="carousel-item active ">
+          <div class="row carousel-row">
+            <div class="col-lg-8">
+              <img src="https://rafiaein.github.io/waGGy/images/banner-img.png" class="d-block w-100 carousel-img"
+                alt="...">
+            </div>
+            <div class="col-lg-4  mt-lg-5 carousel-text">
+              <div class=" secondary-font text-uppercase "
+                style="font-weight: 300; color:#dead6f;position: relative; top: 2vw;"> Save10-20%
+                OFF </div>
+              <div>
+                <h1 class=" mt-4">Best</h1>
+              </div>
+              <div>
+                <h1>Destination for </h1>
+              </div>
+              <div>
+                <h1 style="color:#dead6f;">Your Pets</h1>
+              </div>
+              <button class="shop-btn">
+                <p class="shop-btn-text">Shop Now <i class="fa-solid fa-arrow-right"></i></p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row carousel-row">
+            <div class="col-lg-8">
+              <img src="https://rafiaein.github.io/waGGy/images//banner-img3.png" class="d-block w-100 carousel-img"
+                alt="...">
+            </div>
+            <div class="col-lg-4 d-flex flex-column     mt-lg-5 carousel-text">
+              <div class=" secondary-font text-uppercase "
+                style="font-weight: 300; color:#dead6f; position: relative; top:2vw;"> Save10-20% OFF </div>
+              <div>
+                <h1 class=" mt-4">Best</h1>
+              </div>
+              <div>
+                <h1>Destination for </h1>
+              </div>
+              <div>
+                <h1 style="color:#dead6f;">Your Pets</h1>
+              </div>
+              <button class="shop-btn">
+                <p class="shop-btn-text">Shop Now <i class="fa-solid fa-arrow-right"></i></p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row carousel-row">
+            <div class="col-lg-8">
+              <img src="https://rafiaein.github.io/waGGy/images/banner-img4.png" class="d-block w-100 carousel-img"
+                alt="...">
+            </div>
+            <div class="col-lg-4 d-flex flex-column    mt-lg-5 carousel-text">
+              <div class=" secondary-font text-uppercase "
+                style="font-weight: 300; color:#dead6f; position: relative; top: 2vw;"> Save10-20% OFF </div>
+              <div>
+                <h1 class=" mt-4">Best</h1>
+              </div>
+              <div>
+                <h1>Destination for </h1>
+              </div>
+              <div>
+                <h1 style="color:#dead6f;">Your Pets</h1>
+              </div>
+              <a href="#">
+                <button class="shop-btn text-center">
+                  <p class="shop-btn-text">Shop Now <i class="fa-solid fa-arrow-right"></i></p>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div> <!--Close the Carousel div-->
+
+  <!--Close the Carousel Section-->
+
+  <!--This is a Pets Foods Section-->
+  <div class="container mt-lg-5"> <!--This is a Container 4-->
+    <div class="row"> <!--"Row div"-->
+      <div class="d-flex justify-content-around mt-lg-5  food-section"> <!--Food Section Main div-->
+
+        <div class="d-flex flex-column flex-wrap">
+          <a href="#" class="food-anchar">
+            <div><i class="fa-solid fa-bowl-food fa-4x food-icon pb-lg-3"></i></div>
+            <div>Foodies</div>
+          </a>
+        </div>
+
+        <div class="d-flex flex-column">
+          <a href="#" class="food-anchar">
+            <div><i class="fa-solid fa-crow fa-4x food-icon pb-lg-3"></i></div>
+            <div>Birds Shop</div>
+          </a>
+        </div>
+
+        <div class="d-flex flex-column">
+          <a href="#" class="food-anchar">
+            <div><i class="fa-solid fa-dog fa-4x food-icon pb-lg-3"></i></div>
+            <div>Dog Shop</div>
+          </a>
+        </div>
+
+        <div class="d-flex flex-column">
+          <a href="#" class="food-anchar">
+            <div><i class="fa-solid fa-fish fa-4x food-icon pb-lg-3"></i></div>
+            <div>Fish Shop</div>
+          </a>
+        </div>
+
+        <div class="d-flex flex-column">
+          <a href="#" class="food-anchar">
+            <div><i class="fa-solid fa-shield-cat fa-4x food-icon pb-lg-3"></i></div>
+            <div>Cat Shop</div>
+          </a>
+        </div>
+      </div> <!--Close the Food Section Main div-->
+    </div> <!--Close the "Row div"-->
+  </div> <!--Close the Container 4-->
+  <!--Close the Pets Foods Section-->
+
+  <!--This is a Product Buy Section-->
+  <div class="container mt-lg-5"> <!--This is a Container 5-->
+    <div class="row "> <!--"Row div"-->
+
+      <div class="d-flex justify-content-between mt-lg-5 product-div">
+        <div class="cloths">
+          <h1 style="font-size: 5vw;">Pets Clothing</h1>
+        </div>
+        <div class=""><a href="#"> <button class="hover-button border shop-btn"><big>Shop Now</big></button></a></div>
+      </div>
+
+    </div> <!--Close the "Row div"-->
+  </div> <!--Close the Container 5-->
+  <!--Close the Product Buy Section-->
+
+
+  <div class="product-container"> <!--This is a Product Section-->
+    <div class=" side-wall cloth-hid"></div>
+    <div class="col-lg-10 product-section">
+
+      <div class="d-flex flex-column first-product1 mt-lg-2"> <!--First Product div-->
+        <div class="dog-cloths">
+          <a href="#">
+            <img src="./dog hoodies.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+              style="height: 40vh;">
+          </a>
+        </div>
+        <div class="product-text">
+          <h3 class="text-start mt-lg-5">Hoodies</h3>
+          <div class="five-star d-flex">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="star-5">5.0</span>
+          </div>
+          <h5 class="text-start mb-lg-3">$18.00</h5>
+          <a href="#" class="product-anchar">
+            <div class="border p-lg-3 rounded" style="width:15vw;">
+              <h4>ADD TO CART</h4>
+            </div>
+            <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+          </a>
+        </div>
+      </div> <!--Close the first product div-->
+
+      <div class="d-flex flex-column first-product mt-lg-2"> <!--Second Product div-->
+        <div class="dog-cloths">
+          <a href="#">
+            <img src="./dog-sweater.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+              style="height: 40vh;">
+          </a>
+        </div>
+        <div class="product-text">
+          <h3 class="text-start mt-lg-5">Sweater</h3>
+          <div class="five-star d-flex">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="star-5">5.0</span>
+          </div>
+          <h5 class="text-start mb-lg-3 ">$18.00</h5>
+          <a href="#" class="product-anchar">
+            <div class="border p-lg-3 rounded" style="width:15vw;">
+              <h4>ADD TO CART</h4>
+            </div>
+            <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+          </a>
+        </div>
+      </div> <!--Close the Second product div-->
+
+      <div class="d-flex flex-column first-product mt-lg-2 cloth-hid"> <!--Third Product div-->
+        <div class="dog-cloths cloth-hid">
+          <a href="#">
+            <img src="./dog-Raincoat.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov cloth-hid"
+              style="height: 40vh;">
+          </a>
+        </div>
+        <div class="product-text cloth-hid">
+          <h3 class="text-start mt-lg-5 cloth-hid">RainCoat</h3>
+          <div class="five-star d-flex cloth-hid">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="star-5 cloth-hid">5.0</span>
+          </div>
+          <h5 class="text-start mb-lg-3 cloth-hid">$18.00</h5>
+          <a href="#" class="product-anchar cloth-hid">
+            <div class="border p-lg-3 rounded cloth-hid" style="width:15vw;">
+              <h4>ADD TO CART</h4>
+            </div>
+            <div class="border p-lg-3 rounded cloth-hid" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+          </a>
+        </div>
+      </div> <!--Close the Third product div-->
+
+      <div class="d-flex flex-column first-product mt-lg-2 cloth-hid"> <!--Fourth Product div-->
+        <div class="dog-cloths">
+          <a href="#">
+            <img src="./dog-T-Shirt.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+              style="height: 40vh;">
+          </a>
+        </div>
+        <div class="product-text">
+          <h3 class="text-start mt-lg-5">T-Shirt</h3>
+          <div class="five-star d-flex">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="star-5">5.0</span>
+          </div>
+          <h5 class="text-start mb-lg-3">$18.00</h5>
+          <a href="#" class="product-anchar">
+            <div class="border p-lg-3 rounded" style="width:15vw;">
+              <h4>ADD TO CART</h4>
+            </div>
+            <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+          </a>
+        </div>
+      </div> <!--Close the Fourth product div-->
+
+      <div class="d-flex flex-column first-product mt-lg-2 cloth-hid"> <!--Fifth Product div-->
+        <div class="dog-cloths">
+          <a href="#">
+            <img src="./dog-Jacket.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov" style="height: 40vh;">
+          </a>
+        </div>
+        <div class="product-text">
+          <h3 class="text-start mt-lg-5">Jacket</h3>
+          <div class="five-star d-flex">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="star-5">5.0</span>
+          </div>
+          <h5 class="text-start mb-lg-3">$18.00</h5>
+          <a href="#" class="product-anchar">
+            <div class="border p-lg-3 rounded" style="width:15vw;">
+              <h4>ADD TO CART</h4>
+            </div>
+            <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+          </a>
+        </div>
+      </div> <!--Close the Fifth product div-->
+
+      <div class="d-flex flex-column first-product mt-lg-2 cloth-hid"> <!--Sixth Product div-->
+        <div class="dog-cloths">
+          <a href="#">
+            <img src="./dog-Pajamas.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+              style="height: 40vh;">
+          </a>
+        </div>
+        <div class="product-text">
+          <h3 class="text-start mt-lg-5">Pajama</h3>
+          <div class="five-star d-flex">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="star-5">5.0</span>
+          </div>
+          <h5 class="text-start mb-lg-3">$18.00</h5>
+          <a href="#" class="product-anchar">
+            <div class="border p-lg-3 rounded" style="width:15vw;">
+              <h4>ADD TO CART</h4>
+            </div>
+            <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+          </a>
+        </div>
+      </div> <!--Close the Sixth product div-->
+
+      <div class="d-flex flex-column first-product mt-lg-2 cloth-hid"> <!--Seventh Product div-->
+        <div class="dog-cloths">
+          <a href="#">
+            <img src="./dog-costume.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+              style="height: 40vh;">
+          </a>
+        </div>
+        <div class="product-text">
+          <h3 class="text-start mt-lg-5">Costume</h3>
+          <div class="five-star d-flex">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="star-5">5.0</span>
+          </div>
+          <h5 class="text-start mb-lg-3">$18.00</h5>
+          <a href="#" class="product-anchar">
+            <div class="border p-lg-3 rounded" style="width:15vw;">
+              <h4>ADD TO CART</h4>
+            </div>
+            <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+          </a>
+        </div>
+      </div> <!--Close the Seventh product div-->
+
+    </div>
+    <div class=" side-wall cloth-hid"></div>
+
+  </div> <!--Close the Product Section-->
+
+  <!--This is a nav-tabs Section-->
+  <div class="nav-tab-div">
+    <div class="container mt-lg-5"> <!--This is a nav-tab Container div-->
+      <div class="row">
+        <div class="d-flex justify-content-between"> <!--nav-tabs Main div-->
+          <span>
+            <h1>Pets Foodies</h1>
+          </span>
+          <span>
+            <a href="#">
+              <button class="shop-btn">
+                <p class="shop-btn-nav">Shop Now <i class="fa-solid fa-arrow-right"></i></p>
+              </button>
+            </a>
+          </span>
+        </div> <!--Closee the nav-tab Main div-->
+        <div> <!--nav-tab div-->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                role="tab" aria-controls="home" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="cat-tab" data-bs-toggle="tab" data-bs-target="#cat" type="button" role="tab"
+                aria-controls="cat" aria-selected="false">Cat</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                role="tab" aria-controls="contact" aria-selected="false">Dog</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="bird-tab" data-bs-toggle="tab" data-bs-target="#bird" type="button"
+                role="tab" aria-controls="bird" aria-selected="false">BIRD</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <!--This is a All Product Section-->
+              <div class="d-flex gap-3 "> <!--All product Section first row-->
+
+                <div class="d-flex flex-column first-product mt-lg-2"> <!--All Section Product1 div-->
+                  <div class="dog-cloths">
+                    <a href="#">
+                      <img src="./Dry-Kibble.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                        style="height: 40vh;">
+                    </a>
+                  </div>
+                  <h3 class="text-start mt-lg-5">Dry Kibble</h3>
+                  <div class="five-star d-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="star-5">5.0</span>
+                  </div>
+                  <h5 class="text-start mb-lg-3">$18.00</h5>
+                  <a href="#" class="product-anchar">
+                    <div class="border p-lg-3 rounded" style="width:15vw;">
+                      <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                  </a>
+                </div> <!--Close the All Section product1 div-->
+
+                <div class="d-flex flex-column first-product mt-lg-2"> <!--All Section Product2 div-->
+                  <div class="dog-cloths">
+                    <a href="#">
+                      <img src="./WetCanned-Food.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                        style="height: 40vh;">
+                    </a>
+                  </div>
+                  <h3 class="text-start mt-lg-5">Canned Food</h3>
+                  <div class="five-star d-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="star-5">5.0</span>
+                  </div>
+                  <h5 class="text-start mb-lg-3">$18.00</h5>
+                  <a href="#" class="product-anchar">
+                    <div class="border p-lg-3 rounded" style="width:15vw;">
+                      <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                  </a>
+                </div> <!--Close the All Section product2 div-->
+
+                <div class="d-flex flex-column first-product mt-lg-2"> <!--All Section Product3 div-->
+                  <div class="dog-cloths">
+                    <a href="#">
+                      <img src="./Raw-Dog.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                        style="height: 40vh;">
+                    </a>
+                  </div>
+                  <h3 class="text-start mt-lg-5">Raw Food</h3>
+                  <div class="five-star d-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="star-5">5.0</span>
+                  </div>
+                  <h5 class="text-start mb-lg-3">$18.00</h5>
+                  <a href="#" class="product-anchar">
+                    <div class="border p-lg-3 rounded" style="width:15vw;">
+                      <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                  </a>
+                </div> <!--Close the All Section product3 div-->
+
+                <div class="d-flex flex-column first-product mt-lg-2"> <!--All Section Product4 div-->
+                  <div class="dog-cloths">
+                    <a href="#">
+                      <img src="./Grain-Free.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                        style="height: 40vh;">
+                    </a>
+                  </div>
+                  <h3 class="text-start mt-lg-5">Grain-free Food</h3>
+                  <div class="five-star d-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="star-5">5.0</span>
+                  </div>
+                  <h5 class="text-start mb-lg-3">$18.00</h5>
+                  <a href="#" class="product-anchar">
+                    <div class="border p-lg-3 rounded" style="width:15vw;">
+                      <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                  </a>
+                </div> <!--Close the All Section product4 div-->
+
+              </div> <!--Close the All product Section first row-->
+
+              <div class="d-flex gap-3 mt-lg-5"> <!--This is a All product Section second row-->
+
+                <div class="d-flex flex-column first-product mt-lg-2"> <!--All Section Product5 div-->
+                  <div class="dog-cloths">
+                    <a href="#">
+                      <img src="./Dehydrated-Cat.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                        style="height: 40vh;">
+                    </a>
+                  </div>
+                  <h3 class="text-start mt-lg-5">Dehydrated Food</h3>
+                  <div class="five-star d-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="star-5">5.0</span>
+                  </div>
+                  <h5 class="text-start mb-lg-3">$18.00</h5>
+                  <a href="#" class="product-anchar">
+                    <div class="border p-lg-3 rounded" style="width:15vw;">
+                      <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                  </a>
+                </div> <!--Close the All Section product5 div-->
+
+                <div class="d-flex flex-column first-product mt-lg-2"> <!--All Section Product6 div-->
+                  <div class="dog-cloths">
+                    <a href="#">
+                      <img src="./Prescription-Cat.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                        style="height: 40vh;">
+                    </a>
+                  </div>
+                  <h3 class="text-start mt-lg-5">Prescription Food</h3>
+                  <div class="five-star d-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="star-5">5.0</span>
+                  </div>
+                  <h5 class="text-start mb-lg-3">$18.00</h5>
+                  <a href="#" class="product-anchar">
+                    <div class="border p-lg-3 rounded" style="width:15vw;">
+                      <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                  </a>
+                </div> <!--Close the All Section product6 div-->
+
+                <div class="d-flex flex-column first-product mt-lg-2"> <!--All Section Product7 div-->
+                  <div class="dog-cloths">
+                    <a href="#">
+                      <img src="./Seed-Mixes.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                        style="height: 40vh;">
+                    </a>
+                  </div>
+                  <h3 class="text-start mt-lg-5">Mixed Seed</h3>
+                  <div class="five-star d-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="star-5">5.0</span>
+                  </div>
+                  <h5 class="text-start mb-lg-3">$18.00</h5>
+                  <a href="#" class="product-anchar">
+                    <div class="border p-lg-3 rounded" style="width:15vw;">
+                      <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                  </a>
+                </div> <!--Close the All Section product7 div-->
+
+                <div class="d-flex flex-column first-product mt-lg-2"> <!--All Section Product8 div-->
+                  <div class="dog-cloths">
+                    <a href="#">
+                      <img src="./Grit-food.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                        style="height: 40vh;">
+                    </a>
+                  </div>
+                  <h3 class="text-start mt-lg-5">Grit Food</h3>
+                  <div class="five-star d-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="star-5">5.0</span>
+                  </div>
+                  <h5 class="text-start mb-lg-3">$18.00</h5>
+                  <a href="#" class="product-anchar">
+                    <div class="border p-lg-3 rounded" style="width:15vw;">
+                      <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                  </a>
+                </div> <!--Close the All Section product8 div-->
+
+              </div> <!--Close the All product Section second row-->
+
+            </div> <!--Close the All Product Section-->
+
+            <div class="tab-pane fade d-flex gap-5" id="cat" role="tabpanel" aria-labelledby="cat-tab">
+              <!--This is a Cat Product Section-->
+
+              <div class="d-flex flex-column first-product mt-lg-2 "> <!--Cat Product1 div-->
+                <div class="dog-cloths">
+                  <a href="#">
+                    <img src="./Grain-Free.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                      style="height: 40vh;">
+                  </a>
+                </div>
+                <h3 class="text-start mt-lg-5">Grain-free Food</h3>
+                <div class="five-star d-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="star-5">5.0</span>
+                </div>
+                <h5 class="text-start mb-lg-3">$18.00</h5>
+                <a href="#" class="product-anchar">
+                  <div class="border p-lg-3 rounded" style="width:15vw;">
+                    <h4>ADD TO CART</h4>
+                  </div>
+                  <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                </a>
+              </div> <!--Close the Cat product1 div-->
+
+              <div class="d-flex flex-column first-product mt-lg-2"> <!--All Cat Product2 div-->
+                <div class="dog-cloths">
+                  <a href="#">
+                    <img src="./Dehydrated-Cat.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                      style="height: 40vh;">
+                  </a>
+                </div>
+                <h3 class="text-start mt-lg-5">Dehydrated Food</h3>
+                <div class="five-star d-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="star-5">5.0</span>
+                </div>
+                <h5 class="text-start mb-lg-3">$18.00</h5>
+                <a href="#" class="product-anchar">
+                  <div class="border p-lg-3 rounded" style="width:15vw;">
+                    <h4>ADD TO CART</h4>
+                  </div>
+                  <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                </a>
+              </div> <!--Close the Cat product2 div-->
+
+              <div class="d-flex flex-column first-product mt-lg-2"> <!--Cat Product3 div-->
+                <div class="dog-cloths">
+                  <a href="#">
+                    <img src="./Prescription-Cat.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                      style="height: 40vh;">
+                  </a>
+                </div>
+                <h3 class="text-start mt-lg-5">Prescription Food</h3>
+                <div class="five-star d-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="star-5">5.0</span>
+                </div>
+                <h5 class="text-start mb-lg-3">$18.00</h5>
+                <a href="#" class="product-anchar">
+                  <div class="border p-lg-3 rounded" style="width:15vw;">
+                    <h4>ADD TO CART</h4>
+                  </div>
+                  <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                </a>
+              </div> <!--Close the Cat product3 div-->
+
+            </div> <!--Close the Cat Product Section-->
+
+            <div class="tab-pane fade d-flex gap-5 dog-product" id="contact" role="tabpanel"
+              aria-labelledby="contact-tab"> <!--This is a Dog Product Section-->
+
+              <div class="d-flex flex-column first-product mt-lg-2"> <!--Dog Product1 div-->
+                <div class="dog-cloths">
+                  <a href="#">
+                    <img src="./Dry-Kibble.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-product-img"
+                      style="height: 40vh;">
+                  </a>
+                </div>
+                <h3 class="text-start mt-lg-5">Dry Kibble</h3>
+                <div class="five-star d-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="star-5">5.0</span>
+                </div>
+                <h5 class="text-start mb-lg-3">$18.00</h5>
+                <a href="#" class="product-anchar">
+                  <div class="border p-lg-3 rounded" style="width:15vw;">
+                    <h4>ADD TO CART</h4>
+                  </div>
+                  <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                </a>
+              </div> <!--Close the Dog Product1 div-->
+
+              <div class="d-flex flex-column first-product mt-lg-2"> <!--Dog Product2 div-->
+                <div class="dog-cloths">
+                  <a href="#">
+                    <img src="./WetCanned-Food.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-product-img"
+                      style="height: 40vh;">
+                  </a>
+                </div>
+                <h3 class="text-start mt-lg-5">Canned Food</h3>
+                <div class="five-star d-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="star-5">5.0</span>
+                </div>
+                <h5 class="text-start mb-lg-3">$18.00</h5>
+                <a href="#" class="product-anchar">
+                  <div class="border p-lg-3 rounded" style="width:15vw;">
+                    <h4>ADD TO CART</h4>
+                  </div>
+                  <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                </a>
+              </div> <!--Close the Dog product2 div-->
+
+              <div class="d-flex flex-column first-product mt-lg-2"> <!--Dog Product3 div-->
+                <div class="dog-cloths">
+                  <a href="#">
+                    <img src="./Raw-Dog.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-product-img"
+                      style="height: 40vh;">
+                  </a>
+                </div>
+                <h3 class="text-start mt-lg-5">Raw Food</h3>
+                <div class="five-star d-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="star-5">5.0</span>
+                </div>
+                <h5 class="text-start mb-lg-3">$18.00</h5>
+                <a href="#" class="product-anchar">
+                  <div class="border p-lg-3 rounded" style="width:15vw;">
+                    <h4>ADD TO CART</h4>
+                  </div>
+                  <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                </a>
+              </div> <!--Close the Dog product3 div-->
+
+            </div> <!--Close the Dog Product Section-->
+
+            <div class="tab-pane fade d-flex gap-5 bird-product" id="bird" role="tabpanel" aria-labelledby="bird-tab">
+              <!--This is a Bird Product Section-->
+
+              <div class="d-flex flex-column first-product mt-lg-2"> <!--Bird Product1 div-->
+                <div class="dog-cloths">
+                  <a href="#">
+                    <img src="./Seed-Mixes.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                      style="height: 40vh;">
+                  </a>
+                </div>
+                <h3 class="text-start mt-lg-5">Mixed Seed</h3>
+                <div class="five-star d-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="star-5">5.0</span>
+                </div>
+                <h5 class="text-start mb-lg-3">$18.00</h5>
+                <a href="#" class="product-anchar">
+                  <div class="border p-lg-3 rounded" style="width:15vw;">
+                    <h4>ADD TO CART</h4>
+                  </div>
+                  <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                </a>
+              </div> <!--Close the Bird Product1 div-->
+
+              <div class="d-flex flex-column first-product mt-lg-2"> <!--Bird Product2 div-->
+                <div class="dog-cloths">
+                  <a href="#">
+                    <img src="./Grit-food.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                      style="height: 40vh;">
+                  </a>
+                </div>
+                <h3 class="text-start mt-lg-5">Grit Food</h3>
+                <div class="five-star d-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="star-5">5.0</span>
+                </div>
+                <h5 class="text-start mb-lg-3">$18.00</h5>
+                <a href="#" class="product-anchar">
+                  <div class="border p-lg-3 rounded" style="width:15vw;">
+                    <h4>ADD TO CART</h4>
+                  </div>
+                  <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+                </a>
+              </div> <!--Close the Bird Product2 div-->
+
+            </div> <!--Close the Bird Product Section-->
+          </div>
+        </div> <!--Close the nav-tab div-->
+      </div> <!--Close the "Row div"-->
+    </div> <!--Close the nav-tab container div-->
+  </div>
+
+  <!--Close the nav-tabs-->
+
+  <!--This is a Offer Section-->
+  <div class="row d-flex offer-section pt-lg-4">
+
+    <div class="col-lg-5 d-flex flex-column offer-side-text">
+      <span>UP TO 40% OFF</span>
+      <span>Clearance</span>
+      <span>Sale !!!</span>
+      <a href="#">
+        <button class="shop-btn mt-lg-4">
+          <p class="shop-btn-nav">Shop Now <i class="fa-solid fa-arrow-right"></i></p>
+        </button>
+      </a>
+    </div>
+    <div class="col-lg-5">
+      <img src="https://rafiaein.github.io/waGGy/images/banner-img2.png" alt="" class="img-fluid offer-img">
+    </div>
+
+
+  </div><!--Close the "Row div"-->
+  <!--Close the Offer Section-->
+
+  <!--This is a Artical Section-->
+  <div class="container ">
+    <div class="row" style="height: 0px;">
+      <div id="carouselExampleControls" class="carousel slide artical-section" data-bs-ride="carousel">
+        <!--This is a Carousel div-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="d-block w-100">Ensure your furry friend stays active and healthy with our premium vitamins,
+              specially formulated to support joint health and a shiny coat. These easy-to-give chewables are packed
+              with essential nutrients. Keep your dog at their best with PawPerfection – vitality in every bite!</h2>
+          </div>
+          <div class="carousel-item">
+            <h2 class="d-block w-100">Give your dog the gift of comfort with FluffyTail Dog Beds, designed for maximum
+              coziness and support. Our beds feature orthopedic foam to relieve pressure points and a washable cover for
+              easy cleaning. Treat your pet to the best rest possible with FluffyTail!</h2>
+          </div>
+          <div class="carousel-item">
+            <h2 class="d-block w-100">Unleash endless fun with Fetch Frenzy Toys, perfect for active dogs who love to
+              play. Made from durable, non-toxic materials, these toys are designed to withstand even the most vigorous
+              chewers. Keep your dog entertained and happy with Fetch Frenzy!</h2>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> <!--Close the Carousel div-->
+    </div> <!--Close the Row div-->
+  </div> <!--Close the Container div-->
+  <!--Close the Artical Section-->
+
+  <!--Best Selling Product Section-->
+  <div class="container" style="height: 0px;">
+    <div class="row" style="height: 0px;">
+      <div class="selling-product"> <!--Selling Product Main div-->
+        <div class="d-flex justify-content-between"> <!--Sub-child 1-->
+          <h1>Best Selling Product</h1>
+          <button class="shop-btn">
+            <p class="shop-btn-selling">Shop Now <i class="fa-solid fa-arrow-right"></i></p>
+          </button>
+        </div> <!--Close the Sub-child 1-->
+
+        <div class="d-flex gap-3 "> <!--Sub-child 2-->
+
+          <div class="d-flex flex-column first-product mt-lg-2"> <!--Best Selling Product1 div-->
+            <div class="dog-cloths">
+              <a href="#">
+                <img src="./Dry-Kibble.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                  style="height: 40vh;">
+              </a>
+            </div>
+            <h3 class="text-start mt-lg-5">Dry Kibble</h3>
+            <div class="five-star d-flex">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="star-5">5.0</span>
+            </div>
+            <h5 class="text-start mb-lg-3">$18.00</h5>
+            <a href="#" class="product-anchar">
+              <div class="border p-lg-3 rounded" style="width:15vw;">
+                <h4>ADD TO CART</h4>
+              </div>
+              <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+            </a>
+          </div> <!--Close the Best Selling Product1 div-->
+
+          <div class="d-flex flex-column first-product mt-lg-2"> <!--Best Selling Product2 div-->
+            <div class="dog-cloths">
+              <a href="#">
+                <img src="./dog-Pajamas.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                  style="height: 40vh;">
+              </a>
+            </div>
+            <div class="product-text">
+              <h3 class="text-start mt-lg-5">Pajama</h3>
+              <div class="five-star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="star-5">5.0</span>
+              </div>
+              <h5 class="text-start mb-lg-3">$18.00</h5>
+              <a href="#" class="product-anchar">
+                <div class="border p-lg-3 rounded" style="width:15vw;">
+                  <h4>ADD TO CART</h4>
+                </div>
+                <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+              </a>
+            </div>
+          </div> <!--Close the Best Selling Product2 div-->
+
+          <div class="d-flex flex-column first-product mt-lg-2"> <!--Best Selling Product3 div-->
+            <div class="dog-cloths">
+              <a href="#">
+                <img src="./Raw-Dog.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-product-img"
+                  style="height: 40vh;">
+              </a>
+            </div>
+            <h3 class="text-start mt-lg-5">Raw Food</h3>
+            <div class="five-star d-flex">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="star-5">5.0</span>
+            </div>
+            <h5 class="text-start mb-lg-3">$18.00</h5>
+            <a href="#" class="product-anchar">
+              <div class="border p-lg-3 rounded" style="width:15vw;">
+                <h4>ADD TO CART</h4>
+              </div>
+              <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+            </a>
+          </div> <!--Close the Best Selling Product3 div-->
+
+          <div class="d-flex flex-column first-product mt-lg-2"> <!--Best Selling Product3 div-->
+            <div class="dog-cloths">
+              <a href="#">
+                <img src="./Prescription-Cat.png" alt="Dog Hoodies" class="img-fluid rounded-5 dog-img-hov"
+                  style="height: 40vh;">
+              </a>
+            </div>
+            <h3 class="text-start mt-lg-5">Prescription Food</h3>
+            <div class="five-star d-flex">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span class="star-5">5.0</span>
+            </div>
+            <h5 class="text-start mb-lg-3">$18.00</h5>
+            <a href="#" class="product-anchar">
+              <div class="border p-lg-3 rounded" style="width:15vw;">
+                <h4>ADD TO CART</h4>
+              </div>
+              <div class="border p-lg-3 rounded" style="width:5vw;"><i class="fa-solid fa-heart fa-2x"></i></div>
+            </a>
+          </div> <!--Close the Best Selling Product3 div-->
+        </div> <!--Close the Sub-child 2-->
+
+      </div> <!--Close the Selling Product Main div-->
+    </div> <!--Close the "Row div"-->
+  </div> <!--Close the Container div-->
+  <!--Close the Best Selling Product Section-->
+
+  <!--Register form Section-->
+  <div class="container-fluid" style="height: 0px;">
+    <div class="row register-form">
+      <h1>Get 20% Off On</h1>
+      <h2>First Purchase</h2>
+      <div class="form-section"> <!--Sub-child div-->
+        <input type="text" placeholder="Enter Your Email Address">
+        <input type="text" placeholder="Create Password">
+        <input type="text" placeholder="Repeat Password">
+        <a href="#">
+          <button>REGISTER IT NOW</button>
+        </a>
+      </div> <!--Close the Sub-child div-->
+    </div> <!--This is a "Row div"-->
+  </div> <!--This is a Cntainer-fluid div-->
+  <!--Close the Register form Section-->
+
+  <!--Blog Section-->
+  <div class="container">
+    <div class="row">
+
+      <div class="d-flex justify-content-between"> <!--1st div-->
+        <h1>Latest Blog Post</h1>
+        <button class="shop-btn">
+          <p class="shop-btn-selling">Read All <i class="fa-solid fa-arrow-right"></i></p>
+        </button>
+      </div> <!--Close the 1st div-->
+
+      <div class="d-flex justify-content-between gap-3 mt-3"> <!--2nd div-->
+
+        <div class="card">
+          <img src="https://rafiaein.github.io/waGGy/images/blog1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">To Be Helpful Towards Any Animals</h3>
+            <p class="card-text">At the core of our practice is the idea that cities are the incubators of our greatest
+              achievements, and the best hope for a sustainable future.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://rafiaein.github.io/waGGy/images/blog2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">How To Know Your Pet Is Hungry</h3>
+            <p class="card-text">As a pet owner, it's essential to understand your pet's needs, and one of the most
+              fundamental is knowing when they're hungry. Unlike humans, pets can't verbally express their hunger, so
+              it's up to you to recognize the signs. Here are some key indicators that your pet might be hungry</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://rafiaein.github.io/waGGy/images/blog3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Best home for your Pet</h3>
+            <p class="card-text">Creating the perfect home for your pet is one of the most rewarding aspects of being a
+              pet owner. Whether you have a playful pup, a curious cat, or a charming chinchilla, ensuring your pet's
+              environment is comfortable, safe, and stimulating is key to their happiness and well-being. Here are some
+              tips to help you create the best home for your furry friend.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+      </div> <!--2nd div-->
+    </div> <!--Close the Row div-->
+  </div> <!--Close the Container div-->
+  <!--Close the Blog Section-->
+
+  <!--Service Section-->
+  <div class="container">
+    <div class="row">
+      <div class=" d-flex gap-3 justify-content-between service-section">
+
+        <div class="col-lg-3"> <!--Delivery service div-->
+          <button><i class="fa-solid fa-cart-shopping fa-2x"></i></button>
+          <h4>free Delivery</h4>
+          <p>Enjoy the convenience of free delivery right to your doorstep! No more hassle or extra costs—just shop and
+            relax while we handle the rest. </p>
+        </div> <!--Close the Delivery service div-->
+
+        <div class="col-lg-3"> <!--Security service div-->
+          <button><i class="fa-solid fa-shield-halved fa-2x"></i></button>
+          <h4>100% Secure Payment</h4>
+          <p>Ensuring 100% security in pet e-commerce is vital for protecting customer data and fostering trust.</p>
+        </div> <!--Close the Security service div-->
+
+        <div class="col-lg-3"> <!--Daily Offer div-->
+          <button><i class="fa-solid fa-tag fa-2x"></i></button>
+          <h4>Daily Offer</h4>
+          <p>Discover unbeatable deals with our Daily Offer in pet e-commerce! Enjoy discounts on premium pet food, cozy.</p>
+        </div> <!--Close the Daily Offer div-->
+
+        <div class="col-lg-3"> <!--Quality Guarantee div-->
+          <button><i class="fa-solid fa-award fa-2x"></i></button>
+          <h4>Quality Guarantee</h4>
+          <p>Ensuring quality in pet e-commerce is vital for customer trust and satisfaction.</p>
+        </div> <!--Close the Quality Guarantee div-->
+
+      </div>
+    </div> <!--Close the "Row div"-->
+  </div> <!--Close the Container div-->
+  <!--Close the Service Section-->
+
+  <!--Instagram Hover Section-->
+<div class="img-section">
+
+  <div class="logo-section ">
+    <a href="#" class="instagram-log">
+    <i class="fa-brands fa-instagram fa-2x instagram"></i>
+     <img class="img-fluid instagram-log" src="https://rafiaein.github.io/waGGy/images/insta1.jpg" alt="">
+    </a>
+    </div>
+
+  <div class="logo-section ">
+    <a href="#" class="instagram-log">
+    <i class="fa-brands fa-instagram fa-2x instagram"></i> 
+    <img class="img-fluid instagram-log" src="https://rafiaein.github.io/waGGy/images/insta2.jpg" alt="" style="height: 35vh;">
+  </a>
+  </div>
+
+  <div class="logo-section">
+    <a href="#" class="instagram-log" >
+    <i class="fa-brands fa-instagram fa-2x instagram"></i> 
+    <img class="img-fluid" src="https://rafiaein.github.io/waGGy/images/insta3.jpg" alt="">
+  </a> 
+  </div>
+
+  <div class="logo-section ">
+    <a href="#" class="instagram-log">
+    <i class="fa-brands fa-instagram fa-2x instagram"></i> 
+    <img class="img-fluid" src="https://rafiaein.github.io/waGGy/images/insta4.jpg" alt="">
+  </a>
+  </div>
+
+  <div class="logo-section ">
+    <a href="#" class="instagram-log">
+    <i class="fa-brands fa-instagram fa-2x instagram"></i> 
+    <img class="img-fluid" src="https://rafiaein.github.io/waGGy/images/insta5.jpg" alt="">
+  </a>
+  </div>
+
+  <div class="logo-section ">
+    <a href="#" class="instagram-log">
+    <i class="fa-brands fa-instagram fa-2x instagram"></i> 
+    <img class="img-fluid" src="https://rafiaein.github.io/waGGy/images/insta6.jpg" alt="">
+  </a>
+  </div>
+
+</div>
+  <!--Close the Instagram Hover Section-->
+
+  <!--Footer Section-->
+<div class="container footer-section">
+  <div class="row">
+
+<div class="col-3 main-footer-3">
+<img src="https://rafiaein.github.io/waGGy/images/logo.png" alt="">
+<div>
+<p class="pt-lg-3">Subscribe to our newsletter to get updates about our grand offers.</p>
+</div>
+<div class="icon-media ">
+
+  <a href="https://www.facebook.com/ " target="_blank">
+  <button class="footer-hov">
+  <i class="fa-brands fa-facebook "></i>
+</button>
+</a>
+
+<a href="https://www.facebook.com/TwitterInc/" target="_blank">
+  <button class="footer-hov">
+  <i class="fa-brands fa-twitter "></i>
+</button>
+</a>
+
+<a href="https://www.pinterest.com/" target="_blank">
+  <button class="footer-hov">
+  <i class="fa-brands fa-pinterest "></i>
+</button>
+</a>
+
+<a href="https://www.instagram.com/" target="_blank">
+  <button class="footer-hov">
+  <i class="fa-brands fa-instagram "></i>
+</button>
+</a>
+
+<a href="https://www.youtube.com/" target="_blank">
+  <button class="footer-hov">
+  <i class="fa-brands fa-youtube "></i>
+</button>
+</a>
+</div>
+</div>
+
+<div class="col-3 ps-5 main-footer-3">
+<h3>Quick Links</h3>
+<div class="footer-2">
+<a href="#" class="anchar">Home</a>
+<a href="#" class="anchar">About US</a>
+<a href="#" class="anchar">Offer</a>
+<a href="#" class="anchar">Services</a>
+<a href="#" class="anchar">Contact US</a>
+</div>
+</div>
+
+<div class="col-3 ps-5 main-footer-3">
+  <h3>Help Center </h3>
+  <div class="footer-2">
+  <a href="#" class="anchar">FAQS</a>
+  <a href="#" class="anchar">Payment</a>
+  <a href="#" class="anchar">Return & Refund</a>
+  <a href="#" class="anchar">Checkout</a>
+  <a href="#" class="anchar">Delivery information</a>
+</div>
+</div>
+
+<div class="col-3 ps-3 main-footer-3">
+  <h3>NewsLetter</h3>
+  <div>
+    <p class="pt-lg-3">Subscribe to our newsletter to get updates about our grand offers.</p>
+    </div>
+    <form action="">
+      <input type="text" placeholder="Enter Your Email Address">
+    </form>
+</div>
+
+  </div> <!--Close the "Row div"-->
+</div> <!--Close the Container div-->
+  <!--Close the Footer Section-->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
